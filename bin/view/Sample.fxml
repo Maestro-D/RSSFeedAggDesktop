@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="778.0" prefWidth="1129.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainController">
+   <children>
+      <Button fx:id="loginBtn" layoutX="378.0" layoutY="448.0" mnemonicParsing="false" onAction="#LogInFire" prefHeight="40.0" prefWidth="176.0" text="Log In" />
+      <PasswordField fx:id="passwordArea" alignment="CENTER" layoutX="453.0" layoutY="349.0" prefHeight="40.0" prefWidth="224.0" promptText="Password" />
+      <TextField fx:id="loginArea" alignment="CENTER" layoutX="453.0" layoutY="256.0" prefHeight="40.0" prefWidth="224.0" promptText="Login" />
+      <Button fx:id="SignUpBtn" layoutX="574.0" layoutY="448.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="176.0" text="Sign Up" />
+      <Label alignment="CENTER" layoutX="363.0" layoutY="105.0" prefHeight="50.0" prefWidth="398.0" text="Rss Feed Aggregator" textFill="#1388ed">
+         <font>
+            <Font name="System Bold Italic" size="34.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
